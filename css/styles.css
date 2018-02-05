@@ -1,5 +1,8 @@
 body {
-  background-color:#25272F;
+  background-color:#24572F;
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
 }
 
 
@@ -19,10 +22,29 @@ body {
   float:left;
 
 }
+.tile-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.tile-list li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+
+}
+
+ul.tile-list li {
+  list-style-type: disc;
+}
+
+ol.tile-list li {
+  list-style-type: decimal;
+}
 
 .green {
     background-color:#13B2A3;
 }
+
 
 .red {
     background-color:#F16F51;
@@ -45,4 +67,26 @@ body {
 #main-container {
     max-width: 900px;
     margin: 0 auto;
+}
+
+.Chart-total {
+    font-size: 30pt;
+    text-align: right;
+}
+
+#users-table {
+    margin: 10px auto;
+    font-weight: :normal;
+    width: 100%;
+}
+
+#users-table th {
+    border-bottom: 1px solid #F6F6F6;
+    padding: 1px;
+    text-align:center;
+}
+
+#users-table td {
+    padding: 2px;
+    text-align: center;
 }
