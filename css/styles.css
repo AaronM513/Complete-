@@ -1,16 +1,48 @@
 body {
-  background-color:yellow;
+  background-color:#25272F;
 }
 
 
-#interview {
-    background-color: green;
-}
 
 .tile {
-    height: 170px;
-    height: 140px;
-    margin: 30px;
-    padding: 20px;
-    float: left;
+  width: 170px;
+  height: 140px
+  padding: : 20px;
+  margin: 5px;
+  float:left;
+}
+.tile-double{
+  width: 390px;
+  height: 140px
+  padding: : 20px;
+  margin: 5px;
+  float:left;
+
+}
+
+.green {
+    background-color:#13B2A3;
+}
+
+.red {
+    background-color:#F16F51;
+}
+
+.yellow {
+  background-color:#FDB45C
+}
+
+.ligthgrey {
+  background-color:#F6F6F6;
+  color: black;
+}
+
+.city-image {
+  background-image: url("../image/Mexico.png");
+}
+
+
+#main-container {
+    max-width: 900px;
+    margin: 0 auto;
 }
